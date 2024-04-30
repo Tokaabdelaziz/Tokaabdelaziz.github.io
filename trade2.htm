@@ -251,7 +251,7 @@
             <div class="contactContainer">
 
                 <form action="Hpage 2.html" method="POST">
-
+                    <form id="myForm" action="Hpage 2.html" method="POST">
                     <h1>Vehicle Information</h1>
 
                     <div class="input-box">
@@ -269,6 +269,15 @@
                         <input type="submit" value="send">
                     </div>
                 </form>
+                 <script>
+                      function submitForm() {
+                    
+                        event.preventDefault();
+                      
+                        
+                        window.location.href = "Hpage 2.html";
+                      }
+                      </script>
             </div>
             </div>                                             
                <table id="tt">
